@@ -8,11 +8,11 @@ module.exports.port = process.env.PORT || 1337;
 // the configuration options for the server
 module.exports.options = {
     // the name of the application
-    appName: 'your app name',
+    appName: 'ZachChandler-App',
     // the unique app id that clients use to connect
-    appId: process.env.APP_ID || 'your app id',
+    appId: process.env.APP_ID || 'com.madmensoftware.zachchandler.app',
     // the master key used to verify certain clients (keep secret)
-    masterKey: process.env.MASTER_KEY || 'dev master key',
+    masterKey: process.env.MASTER_KEY || 'Hsdhsdu47Hg7bj2jhuHjkisuo1726HhdwjajsHYQ',
 
     // the endpoint to host the parse api at
     serverURL: process.env.SERVER_URL || `http://localhost:${module.exports.port}${module.exports.parseMount}`,
