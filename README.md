@@ -1,4 +1,4 @@
-# parse-server-boilerplate #
+# Get Noticed Server #
 
 ## Usage ##
 
