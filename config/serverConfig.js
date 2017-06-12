@@ -20,7 +20,7 @@ module.exports.options = {
     // relative to the requiring file (not this one)
     cloud: process.env.CLOUD_CODE_MAIN || './cloud/index.js',
     // the database uri to connect to
-    databaseURI: process.env.MONGO_URI || 'mongodb://localhost:27017/dev',
+    databaseURI: process.env.MONGO_URI || 'mongodb://admin:password@ds121222.mlab.com:21222/heroku_lstpz33d',
 
     // the url to include with links in the email
     // publicServerURL: `${process.env.PUBLIC_SERVER_URL}${module.exports.parseMount}`,
